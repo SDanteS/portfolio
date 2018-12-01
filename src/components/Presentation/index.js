@@ -2,11 +2,12 @@ import React from 'react';
 
 const Presentaiton = () => (
     <div style={{ paddingTop: 40 }} className="text-center">
-        <h1>Developpeur fullstack Javascript et formateur Java et Javascript</h1>
-        <h4>
+        <h1>Developpeur et formateur fullstack Javascript</h1>
+        <p>
             Passioné par le developpement de tous les aspets d'un produit mais aussi par le partage
-            de connaissances
-        </h4>
+            de connaissances.
+            <p>Toujours à le recherche de sujet inspirants et de projet innovant :)</p>
+        </p>
     </div>
 );
 
