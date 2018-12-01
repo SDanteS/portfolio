@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import HomePage from './page/HomePage';
+import React, { Component } from "react";
+import HomePage from "./page/HomePage";
 class App extends Component {
-    render() {
-        return <HomePage />;
-    }
+  render() {
+    return <HomePage />;
+  }
 }
 
 export default App;
