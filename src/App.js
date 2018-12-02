@@ -1,8 +1,18 @@
 import React, { Component } from "react";
-import HomePage from "./page/HomePage";
+import Header from "./components/Header";
+import Container from "./components/Container";
+import { BrowserRouter } from "react-router-dom";
+import Routes from "./routes";
 class App extends Component {
   render() {
-    return <HomePage />;
+    return (
+      <BrowserRouter>
+        <Container>
+          <Header />
+          <Routes />
+        </Container>
+      </BrowserRouter>
+    );
   }
 }
 

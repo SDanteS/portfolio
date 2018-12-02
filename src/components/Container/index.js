@@ -5,9 +5,7 @@ const Container = ({ children }) => (
     style={{
       maxWidth: 1280,
       height: "100vh",
-      display: "flex",
-      flexDirection: "column",
-      justifyContent: "space-around"
+      flexDirection: "column"
     }}
   >
     {children}

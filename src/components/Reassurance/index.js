@@ -6,7 +6,7 @@ import psa from "../../static/Groupe_PSA_logo.svg";
 import bnp from "../../static/BNP_Paribas_2009.svg";
 
 const Reasssurance = () => (
-  <section style={{ marginTop: 40 }}>
+  <section style={{ marginTop: 100 }}>
     <h4 className="text-center">ils m'ont fait confiance</h4>
     <div
       style={{
