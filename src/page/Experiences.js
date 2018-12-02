@@ -1,9 +1,11 @@
 import React from "react";
-
+import Search from "../components/Search";
+import ExperienceList from "../components/ExperiencesList";
 const Experiences = () => {
   return (
     <div>
-      <h1>Experiences</h1>
+      <Search />
+      <ExperienceList />
     </div>
   );
 };
